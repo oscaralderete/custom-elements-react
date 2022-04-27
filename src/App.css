@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* custom */
+html {
+  scroll-behavior: smooth;
+}
+
+button.reactBtn {
+  padding: .5em 1em;
+  background-color: #FFAF5D;
+  color: #fff;
+  border: none;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+section.compo{
+  background-color: #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+section.compo h3{
+  color: #282c34
+}
+
+section.compo button.compoBtn {
+  padding: .5em 1em;
+  background-color: #6F8BFC;
+  color: #fff;
+  border: none;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.right{
+  width: 100%;
+  text-align: right;
+}
+
+.my-table{
+  border-collapse: collapse;
+
+}
+
+.my-table tr:nth-child(even) {
+  background-color: #555;
+}
+
+.my-table th, .my-table td{
+  border: solid 1px #ccc;
+  padding: .5em;
+}
+
+.my-table td{
+  text-align: left;
+}
+
+.my-table td a{
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ccc;
+  color: #222;
+  padding: .25em .5em
+}
